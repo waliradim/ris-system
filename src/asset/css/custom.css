@@ -1,0 +1,175 @@
+body,
+html {
+  min-height: 100%;
+}
+.topFixedBanner {
+  background-image: url("../img/skill.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.topBannerOverly {
+  position: absolute;
+  min-height: 500px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.topContent {
+  margin-top: 10rem;
+}
+.topTitle {
+  font-family: "Montserrat, sans-serif";
+  font-weight: 600;
+  color: white;
+  font-size: 48px;
+}
+.topSubTitle {
+  font-family: "Raleway, sans-serif";
+  font-weight: 200;
+  color: white;
+  font-size: 28px;
+}
+
+.serviceMainTitle {
+  color: rgba(20, 80, 245, 0.966);
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  font-family: "Montserrat, sans-serif";
+  font-weight: 600;
+  font-size: 32px;
+}
+.serviceNameTitle {
+  color: rgba(38, 86, 105, 0.849);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Raleway, sans-serif";
+  font-weight: 600;
+  font-size: 22px;
+}
+.serviceDesTitle {
+  color: rgba(28, 39, 51, 0.849);
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  font-family: "Raleway, sans-serif";
+  font-weight: 400;
+  font-size: 16px;
+}
+.serviceCard {
+  margin: 5px, 5px, 5px, 5px;
+  height: 26rem;
+  padding: 60px 30px 60px 30px;
+  box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+}
+.serviceCard:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 115, 230, 0.2);
+}
+
+.navTitle {
+  font-family: "Montserrat, sans-serif";
+  color: white !important;
+  font-weight: 600;
+  font-size: 28px;
+}
+.navScroleTitle {
+  font-family: "Montserrat, sans-serif";
+  color: rgb(19, 241, 119) !important;
+  font-weight: 600;
+  font-size: 28px;
+}
+.navBackground {
+  -webkit-transition: background-color 600ms linear;
+  -moz-transition: background-color 600ms linear;
+  -o-transition: background-color 600ms linear;
+  transition: background-color 600ms linear;
+  background-color: rgba(00, 00, 00, 0.1) !important;
+}
+.navBackgroundScroll {
+  -webkit-transition: background-color 600ms linear;
+  -moz-transition: background-color 600ms linear;
+  -o-transition: background-color 600ms linear;
+  transition: background-color 600ms linear;
+  background-color: white !important;
+}
+.navItem {
+  text-decoration: none !important;
+  font-family: "Montserrat, sans-serif";
+  font-weight: 400;
+  color: white !important;
+  font-size: 20px;
+}
+.navItemScroll {
+  text-decoration: none !important;
+  font-family: "Montserrat, sans-serif";
+  font-weight: 400;
+  color: rgb(19, 241, 119) !important;
+  font-size: 20px;
+}
+.des {
+  font-weight: 400;
+  font-family: "Raleway, sans-serif";
+  color: black;
+  font-size: 14px;
+}
+
+.summerySection {
+  margin-top: 5rem;
+}
+
+.summaryBanner {
+  background-image: url("../img/slider-1.jpg");
+  min-height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.summaryBannerOverly {
+  position: absolute;
+  min-height: 350px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.countNumber {
+  color: brown;
+  font-family: "Montserrat, sans-serif";
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.countTitle {
+  color: brown;
+  font-family: "Raleway, sans-serif";
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.countSection {
+  margin-top: 16%;
+}
+
+.cardTitle {
+  color: black;
+  font-family: "Raleway, sans-serif";
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.cardSubTitle {
+  color: black;
+  font-family: "Montserrat, sans-serif";
+  font-size: 14px;
+  font-weight: 400;
+}
+.iconBullet {
+  color: blue;
+  font-size: 16px;
+}
+
+.workCard {
+  margin-top: 15%;
+  padding: 10px 10px 10px 10px10px;
+  border-radius: 2px;
+}
