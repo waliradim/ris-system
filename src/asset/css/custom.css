@@ -197,3 +197,29 @@ html {
   font-size: 15px;
   font-weight: 400;
 }
+.courseImg {
+  width: 100%;
+}
+.courseTitle {
+  color: black;
+  font-family: "Montserrat, sans-serif";
+  font-size: 18px;
+  font-weight: 600;
+}
+.courseDes {
+  color: black;
+  font-family: "Raleway, sans-serif";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.courseDetails {
+  color: blue;
+  text-decoration: none;
+  font-family: "Raleway, sans-serif";
+  font-size: 18px;
+  font-weight: 600;
+}
+.courseDetails:hover {
+  text-decoration: none;
+}
