@@ -1,4 +1,5 @@
 import Analysis from "./component/Analysis/Analysis";
+import Project from "./component/project/Project";
 import Services from "./component/Services/Services";
 import Summary from "./component/Summary/Summary";
 import TopBanner from "./component/Topbaner/TopBanner";
@@ -11,6 +12,7 @@ function App() {
       <Services />
       <Analysis />
       <Summary />
+      <Project />
     </div>
   );
 }
